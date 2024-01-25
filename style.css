@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: radial-gradient(circle at 90.56% 107.92%, #ff72a1 0, #ff788b 3.33%, #ff8076 6.67%, #ff8a61 10%, #ff944d 13.33%, #ff9f38 16.67%, #ffa921 20%, #ffb300 23.33%, #ffbc00 26.67%, #f6c400 30%, #e2cb00 33.33%, #cdd200 36.67%, #b6d800 40%, #9ddd10 43.33%, #81e130 46.67%, #5fe548 50%, #24e85f 53.33%, #00eb75 56.67%, #00ed8c 60%, #00eea3 63.33%, #00efbb 66.67%, #00f0d3 70%, #00f0ea 73.33%, #00f0ff 76.67%, #00f0ff 80%, #00efff 83.33%, #00edff 86.67%, #00ebff 90%, #00e8ff 93.33%, #00e4ff 96.67%, #00dfff 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.relogio {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+}
+
+.riscos {
+    width: 100%;
+    height: 100%;
+    padding-left: 50%;
+    padding-top: 50%;
+    margin-top: -3px;
+}
+.risco {
+    width: 145px;
+    height: 5px;
+    position: absolute;
+    transform-origin: left;
+    display: flex;
+    justify-content: flex-end;
+}
+.risco .ponto {
+    width: 15px;
+    height: 100%;
+    background-color: #FFF;
+}
+
+.ponteiros {
+    width: 100%;
+    height: 100%;
+    padding-left: 50%;
+    padding-top: 50%;
+    margin-top: -100%;
+}
+.p {
+    transform-origin: left;
+    transform: rotate(0deg);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.p_s {
+    width: 100px;
+    height: 3px;
+    background-color: #F00;
+}
+.p_m {
+    width: 120px;
+    height: 7px;
+    background-color: #FFF;
+}
+.p_h {
+    width: 70px;
+    height: 10px;
+    background-color: #FFF;
+}
+.encaixe {
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.digital {
+    color: #FFF;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 13px;
+}
